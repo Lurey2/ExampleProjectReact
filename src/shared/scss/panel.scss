@@ -1,0 +1,58 @@
+.panel_border_1 {
+    background-color: #F7F7F7;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.panel_border_white {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.flex_space_center {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.max-w-1200px {
+    max-width: 1100px;
+}
+
+.max-h-90vh{
+    max-height: 90vh;
+}
+
+.min-h-main {
+    min-height: 92vh;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.w-100vw {
+    width: 100vw;
+}
+
+.z-45 {
+    z-index: 45;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+.bg-panel-gray {
+    background-color: #FDFDFD;
+}
+
+.bg-dark-100 {
+    background-color: #0C3C60;
+}
+
+.justify-item-center {
+    justify-items: center;
+}

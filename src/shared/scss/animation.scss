@@ -1,0 +1,51 @@
+.slice-rigth{
+    animation-name: animateSlice;
+    animation-duration: .222s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animateSlice {
+    from {
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.animation-opacity-222{
+    animation-name: animationOpacity;
+    animation-duration: .222s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animationOpacity {
+    from {
+        opacity: 0;
+    }
+    to{
+        transform: 1;
+    }
+}
+
+
+.animation-button{
+    animation-name: animationButton;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    padding: 4px;
+    border-radius: 5px;
+    transition: 0.222s;
+    color: black;
+    border-color: #4299E1;
+    &:disabled{
+        animation-name: none;
+        border-color: gray;
+    }
+}
+
+
+@keyframes animationButton {
+    
+}

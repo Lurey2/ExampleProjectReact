@@ -1,0 +1,40 @@
+.card_product_1{
+    max-width:190px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+
+    transition: box-shadow  .222s ease;
+
+    cursor: pointer;
+    img{
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+        border-top: 1px solid #4464BF;
+    }
+
+    h2{
+        font-size: 0.85em;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #1473E6;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .price {
+        color: #E06C75;
+        font-size: 1.05em;
+    }
+
+    &:hover{
+        background-color: rgba(#ffffff, 0.3);
+        box-shadow:0px 0.03rem 0.09rem rgba(0,0,0,0.12), 0px 0.16rem 0.36rem rgba(0,0,0,0.12);
+    }
+}
